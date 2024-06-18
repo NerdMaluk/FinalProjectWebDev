@@ -2,7 +2,7 @@
 body {
     background-color: #E1E6E2;
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    
     margin: 0;
     padding: 0;
     
@@ -177,7 +177,7 @@ footer {
     background-image: url(./Imagens/backgraund.jpg);
     color: black;
     text-align: center;
-    padding: 20px;
+    margin: 50px;
     margin-bottom: 50px;
 }
 .galeria{
@@ -267,8 +267,7 @@ footer {
 
 #contato{
     font-size: larger;
-    padding-left: 100px;
-    
+
 }
 
 
