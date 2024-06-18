@@ -1,0 +1,48 @@
+Meu Portfólio
+Objetivo
+O objetivo deste projeto é apresentar o portfólio de Flavio Soares, um desenvolvedor web com experiência em várias tecnologias, incluindo HTML, CSS, JavaScript, Python e Java.
+
+Estrutura do Projeto
+Cabeçalho e Navegação
+
+Um cabeçalho com um menu de navegação que permite ao usuário acessar rapidamente as seções "Sobre", "Projetos", "Habilidades" e "Contato".
+Seção Sobre
+
+Uma breve introdução sobre Flavio Soares, incluindo sua experiência e habilidades.
+Links para redes sociais e uma imagem de perfil.
+Seção Projetos
+
+Destaque para três projetos principais:
+Sistema de Gestão de Produtos em Java: Sistema que permite a diferentes tipos de usuários (Administrador, Funcionário e Cliente) realizar operações específicas relacionadas aos produtos.
+Gestão de Contactos em Python: Aplicação de linha de comando para gestão de contactos, com funcionalidades para adicionar, editar, remover, pesquisar e listar contactos.
+Design Hero-Section em Figma: Projeto de design de interface para praticar conceitos estudados na disciplina de Design de Interfaces.
+Cada projeto inclui imagens e descrições detalhadas, com links para mais detalhes no GitHub ou Figma.
+Seção Habilidades
+
+Uma tabela listando as habilidades técnicas de Flavio, com níveis de proficiência variando de intermediário a avançado.
+HTML: Avançado
+CSS: Intermediário
+JavaScript: Intermediário
+Python: Intermediário
+Java: Intermediário
+Segurança de Sistemas: Intermediário
+Metodologias de Desenvolvimento: Intermediário
+Design de Interface: Intermediário
+Seção Contato
+
+Um formulário de contato para que visitantes possam enviar mensagens diretamente para Flavio.
+
+Tecnologias Utilizadas
+HTML: Estruturação do conteúdo do site.
+CSS: Estilização e layout do site.
+JavaScript: Interatividade, como a funcionalidade de troca de abas na seção de projetos e a abertura de modais para visualizar detalhes das imagens.
+
+Diferenciais
+Interface intuitiva: Navegação fácil entre as seções.
+Detalhamento de projetos: Descrições detalhadas e imagens ilustrativas dos projetos.
+Formulário de contato: Facilita a comunicação com potenciais clientes ou colaboradores.
+
+Estilo e Aparência
+Cores Suaves: Uso de tons claros para um visual limpo e profissional.
+Imagens de Fundo: Seções com imagens de fundo para um visual mais dinâmico.
+Transições e Efeitos: Efeitos de hover e transições para uma experiência de usuário aprimorada.
