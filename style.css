@@ -38,20 +38,34 @@ header ul li a:hover{
     flex-direction: column;
     margin-right: 50px;
 }
-#sobre img{
-    height: 600px;
+#social img{
+   width: 50px;
+}
+
+#social span img{
+    height: 50px;
 }
 
 #sobre div p{
     font-size: larger;
 }
+
 #social{
-    width: 50px;
-    height: 50px;
+    display: flex;
+    width: 100%;
+    
 }
-#social img{
-    margin: 3px;
+#social span p{
+    margin-left: 25px;
+    
+    
 }
+#social span{
+    display: flex;
+    flex-direction: row;
+    
+}
+
 
 nav{
     
@@ -163,8 +177,7 @@ footer {
     background-image: url(./Imagens/backgraund.jpg);
     color: black;
     text-align: center;
-    padding: 1rem 0;
-
+    padding: 20px;
     margin-bottom: 50px;
 }
 .galeria{
