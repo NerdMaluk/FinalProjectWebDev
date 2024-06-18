@@ -9,9 +9,10 @@ body {
 }
 
 header {
-    background-color: #E1E6E2;
+    background-image: url(./Imagens/backgraund.jpg);
     color: black;
     padding: 1rem 0;
+    margin: 50px;
     text-align: center;  
     font-size: larger;
 }
