@@ -8,8 +8,9 @@
 </head>
 <body>
     <header>
-        <h1>Bem-vindo ao Meu Portfólio</h1>
+        
         <nav>
+            <h1>Bem-vindo ao Meu Portfólio</h1>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
@@ -21,37 +22,82 @@
     
     <main>
         <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <p>Olá! Meu nome é Flavio Soares e sou um desenvolvedor web. Tenho experiência em HTML, CSS e JavaScript.</p>
+            <div>
+                <h2>Sobre Mim</h2>
+                <p>Olá! Meu nome é Flavio Soares e sou um desenvolvedor web. Tenho experiência em HTML, CSS e JavaScript.
+                    Atualmente tenho estuda outras linguagens como phyton, java onde desenvolvi pequenos projrctos dos quais mostros aqui,
+                    Sou bom em trabalho em equipa com experiencia em git e actualmente estou estudando varios freamworks em particular o "scrum".
+                </p>
+                <div id="social">
+                    <h1>Social</h1>
+                    <img src="./Imagens/fbook.png" alt="">
+                    <img src="./Imagens/insta.png" alt="">
+                    <img src="./Imagens/wzap.png" alt="">
+                    <img src="./Imagens/linkdink.png" alt="">
+                    <img src="./Imagens/phone.png" alt="">
+                </div>
+            </div>
             <img id="perfil" src="imagens/meuperfil.JPG" alt="Meu perfil">
         </section>
         
         <section id="projetos">
-            <h2>Meus Projetos</h2>
-            <ul>
-                <li>
-                    <h3>Sistema de Gestão de Produtos</h3>
-                    <p>
-                        Visão Geral: <br>
-                        Este projeto é um sistema simples de gestão de produtos, 
-                        desenvolvido em Java, que permite diferentes tipos de usuários
-                         (Administrador, Funcionário e Cliente) realizar operações específicas 
-                         relacionadas aos produtos.</p>
-                    <img id="project1" src="./imagens/projeto1.png" alt="Projeto 1">
-                    <br>
-                    <a href="https://github.com/NerdMaluk/FinalProject.git">Ver no GitHub</a>
-                </li>
-                <li>
-                    <h3>Projeto 2</h3>
-                    <p>Descrição do projeto 2.</p>
-                    <img src="projeto2.jpg" alt="Projeto 2">
-                    <a href="https://github.com/seuusuario/projeto2">Ver no GitHub</a>
-                </li>
-            </ul>
-            <video controls>
-                <source src="meuvideo.mp4" type="video/mp4">
-                Seu navegador não suporta a tag de vídeo.
-            </video>
+            <h1>Meus Projetos</h1>
+            <div class="abas">
+                <div id="aba-1" class="aba ativa" data-aba="conteudo-1" onclick="mostrarAba(this.id)">Sistema de Gestão de Produtos Em Java</div>
+                <div id="aba-2" class="aba" data-aba="conteudo-2" onclick="mostrarAba(this.id)">Gestão de Contactos Em Phyton</div>
+                <div id="aba-3" class="aba" data-aba="conteudo-3" onclick="mostrarAba(this.id)">Disign Portfolio Em Figma</div>
+            </div>
+    
+            <div id="conteudo-1" class="conteudo ativa">
+                
+                <div class="galeria">
+                    <div class="img-container">
+                        <img src="./Imagens/projeto1.png" alt="imagem 1" onclick="abrirModal('./Imagens/projeto1.png', 'Este projeto é um sistema simples de gestão de produtos, desenvolvido em Java, que permite diferentes tipos de usuários(Administrador, Funcionário e Cliente) realizar operações específicas relacionadas aos produtos.')">
+                    </div>
+                    <div class="img-container">
+                       <img src="./Imagens/poroject1-1.png" alt="imagem 2" onclick="abrirModal('./Imagens/poroject1-1.png', 'Menu de Opções:  Adicionar produto (Administrador), Consultar estoque (Administrador), Realizar venda (Funcionário), Consultar produtos (Cliente), e Sair')"> 
+                    </div>
+                </div>
+               
+                <button><a href="https://github.com/NerdMaluk/FinalProject.git">Mais Detalhes no GitHub</a></button>
+
+            </div>
+
+            <div id="conteudo-2" class="conteudo">
+                <div class="galeria">
+                    <div class="img-container">
+                        <img src="./Imagens/projeto2.png" alt="imagem 2" onclick="abrirModal('./Imagens/projeto2.png', 'Este programa é uma aplicação de linha de comando em Python destinada à gestão de uma lista de contactos. Ele permite adicionar, editar, remover, pesquisar e listar contactos, armazenando essas informações de forma persistente em um ficheiro de texto (contacts.txt). A estrutura do programa é dividida em dois arquivos principais: main.py e contacts.py.')"> 
+                    </div>
+                    <div class="img-container">
+                        <img src="./Imagens/poroject2-2.png" alt="imagem 2" onclick="abrirModal('./Imagens/poroject2-2.png', 'Menu de Interação O menu é exibido em um loop infinito até que o usuário escolha a opção de sair. Opções disponíveis no menu: Adicionar Contacto, Editar Contacto, Remover Contacto, Pesquisar Contacto por Nome, Pesquisar Contacto por Número, Mostrar Todos os Contactos e Sair')"> 
+                    </div>
+                </div>
+
+                <button><a href="https://github.com/NerdMaluk/FinalProject.git">Mais Detalhes no GitHub</a></button>
+
+            </div>
+
+            <div id="conteudo-3" class="conteudo">
+                <div class="galeria">
+                    <div class="img-container">
+                        <img src="./Imagens/HERO0.png" alt="imagem 2" onclick="abrirModal('./Imagens/HERO0.png', 'Este projeto e um disign feito no fim do modulo Disign De Iterfaces cujo obectivo foi praticar os conceitos estudadus na disciplina')"> 
+                    </div>
+                    <div class="img-container">
+                        <img src="./Imagens/card.png" alt="imagem 2" onclick="abrirModal('./Imagens/card.png', 'Descrição da imagem 2')"> 
+                    </div>            
+                </div> 
+
+                <button><a href="https://www.figma.com/design/gfEQVLx6PysgURySEgfFVC/HERO-SECTION?t=Lz7KnvA8rkqgGYCr-0">Mais Detalhes no Figma</a></button>
+
+            </div>
+    
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <img id="modal-img" src="" alt="imagem">
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+
         </section>
         
         <section id="habilidades">
@@ -116,8 +162,9 @@
                 <button type="submit">Enviar</button>
             </form>
         </section>
+        
     </footer>
     
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
