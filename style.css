@@ -2,7 +2,6 @@
 body {
     background-color: #E1E6E2;
     font-family: Arial, sans-serif;
-    
     margin: 0;
     padding: 0;
     
@@ -21,7 +20,7 @@ header nav{
     margin-right: 45px;
 }
 header ul li a:hover{
-    transform:scale(0.5.0.5);
+    transform:scale(0.5);
     background-color: darkgray;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.5);
 }
@@ -95,9 +94,7 @@ nav ul li a {
     border: none;
     border-radius: 4px;
 }
-nav ul li a :hover{
-    background-color: white;
-}
+
 
 section {
     padding: 20px;
@@ -125,7 +122,7 @@ img {
     background-image: url(./Imagens/backgraund.jpg);
 }
 #hero{
-    height: 600px;
+    height: 550px;
 }
 table {
     width: 100%;
